@@ -12,6 +12,7 @@ import java.util.Random;
 public class DataGenerator {
     private DataGenerator() {
     }
+
     private static final Faker faker = new Faker(new Locale("ru"));
 
     @Step("Генерируем актуальную дату с запасом в 4 дня в формате д.м.г")
